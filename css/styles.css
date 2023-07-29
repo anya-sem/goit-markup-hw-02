@@ -16,7 +16,7 @@
 body {
   background-color: var(--white-backgound);
   font-family: 'Roboto', sans-serif;
-  color: var(--dark);
+  color: var(--text);
   font-size: 14px;
   font-weight: 400;
 }
@@ -34,10 +34,10 @@ body {
 }
 .header-logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -54,18 +54,20 @@ body {
 }
 .header-list-item:hover,
 .header-list-item:focus {
-  color: var(--primary-brand);
+  color: var(--pressed-state);
+}
+.address {
+  font-style: normal;
 }
 .address-list-item {
   color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-list-item:hover,
 .address-list-item:focus {
-  color: var(--primary-brand);
+  color: var(--pressed-state);
 }
 
 /* Footer */
@@ -75,10 +77,10 @@ body {
 }
 .footer-logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -110,6 +112,7 @@ body {
 .hero-button {
   background-color: var(--primary-brand);
   color: var(--white-backgound);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -125,13 +128,13 @@ body {
 /* Section 1 - Benefits */
 
 .benefits-subtitle {
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .benefits-text {
-  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -140,11 +143,13 @@ body {
 /* Section 2 - Occupation */
 
 .occupation-title {
+  color: var(--dark);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /* Section 3 - Team */
@@ -153,23 +158,25 @@ body {
   background-color: var(--light);
 }
 .team-title {
+  color: var(--dark);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list-item {
   background-color: var(--white-backgound);
 }
 .team-subtitle {
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-text {
-  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -180,6 +187,7 @@ body {
 .filter-buttons-list-item {
   background-color: var(--light);
   color: var(--primary-brand);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -203,7 +211,6 @@ body {
   letter-spacing: 0.02em;
 }
 .works-text {
-  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
